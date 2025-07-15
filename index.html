@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Little Princess Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">👑 Little Princess Boutique</div>
+    <nav>
+      <a href="#" class="nav-link" data-category="dress">Dresses</a>
+      <a href="#" class="nav-link" data-category="toys">Toys</a>
+      <a href="#" id="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to Little Princess Boutique!</h1>
+      <p>Discover adorable dresses and fun toys for your little girl.</p>
+      <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Girl Kids Fashion" />
+      </div>
+    </section>
+    <section class="categories">
+      <h2>Shop by Category</h2>
+      <div class="category-list">
+        <div class="category-card" data-category="dress">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80" alt="Dresses">
+          <h3>Dresses</h3>
+        </div>
+        <div class="category-card" data-category="toys">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80" alt="Toys">
+          <h3>Toys</h3>
+        </div>
+      </div>
+    </section>
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <div class="product-list" id="featured-products">
+        <!-- JS will populate sample products here -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Little Princess Boutique. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
